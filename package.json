@@ -1,0 +1,29 @@
+{
+    "name": "blube-dark",
+    "publisher": "BluBe",
+    "displayName": "BluBe Dark",
+    "description": "Theme for all developers frontend e backand",
+    "keywords": ["BluBe Theme", "dark theme","blue theme"],
+    "author": {
+        "name": "Rafael Paz",
+        "email": "dudex1992@gmail.com",
+        "url": "https://github.com/rafaspdev"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "BluBe",
+                "uiTheme": "vs-dark",
+                "path": "./themes/BlueBe-color-theme.json"
+            }
+        ]
+    },
+    "icon": "./images/BlueBeIcon.png"
+}
