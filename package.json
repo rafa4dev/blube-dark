@@ -1,21 +1,28 @@
 {
     "name": "blube-dark",
-    "publisher": "BluBe",
+    "publisher": "BlueBe",
     "displayName": "BluBe Dark",
     "description": "Theme for all developers frontend e backand",
-    "keywords": ["BluBe Theme", "dark theme","blue theme"],
+    "keywords": ["BluBe Theme", "dark theme","frontend theme"],
+    "icon": "images/BlueBeIcon.png",
     "author": {
         "name": "Rafael Paz",
         "email": "dudex1992@gmail.com",
         "url": "https://github.com/rafaspdev"
     },
-    "version": "0.0.1",
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+      },
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.58.0"
     },
     "categories": [
         "Themes"
     ],
+    "main": "./out/extension",
+    "activationEvents": ["onLanguage:markdown"],
     "contributes": {
         "themes": [
             {
@@ -25,5 +32,13 @@
             }
         ]
     },
-    "icon": "./images/BlueBeIcon.png"
+    "bugs": {
+        "url": "https://github.com/rafaspdev/blube-dark/issues",
+        "email": "dudex1992@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/rafaspdev/blube-dark"
+    },
+    "license": "MIT",
+    "homepage": "https://youtube.com/golinux"
 }
